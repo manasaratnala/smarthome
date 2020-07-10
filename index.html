@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="https://cloud.boltiot.com/static/js/boltCommands.js"></script>
+            <script>
+            
+            setKey('{{ApiKey}}','{{Name}}');
+            </script>
+</head>
+<body class="main">
+		
+	<div class="fg"> 
+<h1>Smart Home Control</h1>
+	<div class="division">
+		<img src="FAN.jpg" width=200 height=100>
+		<button class="aligning" onclick="digitalWrite(0, 'HIGH');">ON</button>
+		<button class="aligning1" onclick="digitalWrite(0, 'LOW');">OFF</button>
+	
+	<div class="division">
+		<img src="TELEVISION.jpg" width=200 heigth=100>
+		<button class="aligning" onclick="digitalWrite(1, 'HIGH');">ON</button>
+		<button class="aligning1" onclick="digitalWrite(1, 'LOW');">OFF</button>
+	</div>
+	<div class="division">
+		<img src="AC.jpeg" width=200 height=100>
+		<button class="aligning" onclick="digitalWrite(2, 'HIGH');">ON</button>
+		<button class="aligning1" onclick="digitalWrite(2, 'LOW');">OFF</button>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.main
+{
+	background-color: #ffeb3bf2;
+	text-align: center;
+	
+	border-color: green;
+	padding: 10px 0;
+	
+	margin-left: 1px;
+	margin-right: 1px;
+}
+h1
+{
+	
+	color: #23b319de;
+}
+.division
+{
+	margin: 20px 0;
+}
+.aligning
+{
+	vertical-align: top;
+	padding: 10px 10px 10px 10px;
+	background-color: green;
+	color: white;
+}
+.aligning1
+{
+	vertical-align: top;
+	padding: 10px 10px 10px 10px;
+	background-color: red;
+	color: white;
+}
+.fg
+{
+	border: 30px solid skyblue;
+	width: 400px;
+	text-align: center;
+	margin: 5% auto;
+}
